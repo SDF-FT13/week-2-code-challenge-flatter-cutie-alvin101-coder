@@ -1,6 +1,6 @@
 // Your code here
 document.addEventListener('DOMContentLoaded', () => {
-    const baseUrl = 'http://localhost:3000/characters';
+    const baseUrl = 'https://flirty-cuttie-2-0.vercel.app/characters';
     
     fetch(baseUrl)
       .then(response => response.json())
