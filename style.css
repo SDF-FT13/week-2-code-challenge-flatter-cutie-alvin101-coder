@@ -21,6 +21,7 @@ html, body {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 3vh;
+  
 }
 
 #character-bar span {
@@ -33,6 +34,7 @@ html, body {
   align-items: center;
   border-radius: 2em;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .characterInfo{
@@ -41,6 +43,7 @@ html, body {
   font-size: 24px;
   border: dotted;
   text-align: center;
+  cursor: pointer;
 }
 
 input[type="submit"], button {
