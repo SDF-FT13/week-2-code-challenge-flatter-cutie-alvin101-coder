@@ -1,8 +1,8 @@
 // Your code here
 document.addEventListener('DOMContentLoaded', () => {
-    const baseUrl = 'https://flirty-cuttie-2-0.vercel.app/characters';
+    const baseUrl = 'http://localhost:3000/characters';
     
-    fetch(baseUrl)
+    fetch(baseUrl)                 
       .then(response => response.json())
       .then(data => {
         const characterBar = document.getElementById('character-bar');
